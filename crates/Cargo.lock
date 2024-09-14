@@ -186,6 +186,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "delta_electronics"
+version = "0.1.0"
+dependencies = [
+ "embassy-executor",
+ "embassy-stm32",
+ "embassy-time",
+]
+
+[[package]]
 name = "document-features"
 version = "0.2.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -597,6 +606,7 @@ dependencies = [
  "cortex-m-rt",
  "defmt",
  "defmt-rtt",
+ "delta_electronics",
  "embassy-executor",
  "embassy-stm32",
  "embassy-time",
